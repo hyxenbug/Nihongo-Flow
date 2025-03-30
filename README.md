@@ -19,27 +19,29 @@
 
 ## 📥 安装  
 ```bash
-pip install pydub python-srt
+pip install pydub python-srt tkinter 
 sudo apt install ffmpeg  # Linux
 brew install ffmpeg     # macOS
-
+```
 ## 🚀 快速开始
 
 ### 单文件处理
+```bash
 python converter.py input.mkv subtitles.ja.srt output.mp3 --mode speed
-
+```
 ### 批量处理
+```bash
 python batch_processor.py ./input_dir ./output_dir --mode fade
-
+```
 ### GUI
+```bash
 python gui_processor.py
-
+```
 ## 🌐 相关资源
 
-[30 Day Japanese - TheMoeWay](https://learnjapanese.moe/routine/#day-10)
-[Japanese subtitles - kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
+- [30 Day Japanese - TheMoeWay](https://learnjapanese.moe/routine/#day-10)
+- [Japanese subtitles - kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
 
 
 
 
-Love Live! 浓缩音频示例
